@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:title="@string/filters" >
+            <menu >
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/alcoholic"
+                    android:title="@string/alcoholic" />
+                <item android:title="@string/non_alcoholic"
+                    android:id="@+id/non_alcoholic"
+                    />
+                </group>
+            </menu>
+        </item>
+    <item android:title="@string/favs"
+        android:id="@+id/favorite_page"
+        />
+    <item android:title="@string/language"
+       >
+        <menu >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/dutch"
+
+                    android:title="@string/dutch" />
+                <item android:title="@string/english"
+                    android:id="@+id/english"
+                    />
+                <item android:title="@string/german"
+                    android:id="@+id/german"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

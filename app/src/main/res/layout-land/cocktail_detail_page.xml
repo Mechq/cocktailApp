@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    tools:context=".Presentation.CocktailDetail">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ImageView
+        android:layout_marginStart="15dp"
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="164dp"
+        android:layout_alignParentRight="true"
+android:layout_marginTop="15dp"
+        android:layout_below= "@id/toolbar"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        />
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:id="@+id/name"
+        android:layout_below= "@id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="40dp"
+  />
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:id="@+id/categoryText"
+        android:layout_below= "@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:text="Category"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:textSize="20dp"
+        android:layout_below= "@id/categoryText"
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="category"
+    />
+
+    <TextView
+        android:layout_marginStart="15dp"
+        android:id="@+id/alcoholic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category"
+
+        android:layout_marginTop="17dp"
+        android:text="alcoholic"
+        android:textStyle="italic"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ingredientsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alcoholic"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:text="Ingredients"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredientsText"
+        android:layout_marginStart="15dp"
+        android:text="ingredient list"
+        android:textSize="20dp"
+      />
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_below= "@id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:text="instructions"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_below= "@id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Instructions"
+        android:textSize="20dp"
+
+      />
+
+    <TextView
+        android:id="@+id/lastModified"
+        android:layout_marginTop="15dp"
+        android:layout_below= "@id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="date last modified"
+        android:textSize="15dp"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>

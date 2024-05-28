@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favs">Favorieten</string>
+    <string name="alcoholic">Alcoholisch</string>
+    <string name="non_alcoholic">Niet alcoholisch</string>
+    <string name="language">Taal</string>
+    <string name="filters">Filters</string>
+</resources>

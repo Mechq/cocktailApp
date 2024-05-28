@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">CocktailApp</string>
+    <string name="favs">Favorites</string>
+    <string name="alcoholic">Alcoholic</string>
+    <string name="dutch" translatable="false">Dutch</string>
+    <string name="english" translatable="false">English</string>
+    <string name="german" translatable="false">German</string>
+    <string name="non_alcoholic">Non alcoholic</string>
+    <string name="language">Language</string>
+    <string name="filters">Filters</string>
+</resources>
